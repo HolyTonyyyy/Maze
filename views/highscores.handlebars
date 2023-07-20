@@ -1,0 +1,12 @@
+    <div class="container">
+        <h3>
+            High Scores
+        </h3>
+        <div class="list">
+            {{#each user}}
+            <li>
+                {{user.user_name}} : {{user.highscore}}
+            </li>
+            {{/each}}
+        </div>
+    </div>
